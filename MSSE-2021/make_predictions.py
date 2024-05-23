@@ -40,6 +40,7 @@ from commons import input_iterator
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+os.chdir('/home/animeshkumar/workspace/adalab/workspace/DeepPostures/MSSE-2021/')
 
 def generate_predictions(pre_processed_data_dir, output_dir, model, segment, output_label, label_map, downsample_window, bi_lstm_window_sizes, cnn_window_size,
     gt3x_frequency, model_ckpt_path, padding="drop"):

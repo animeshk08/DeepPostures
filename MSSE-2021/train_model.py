@@ -30,6 +30,8 @@ import math
 import argparse
 
 sys.path.append('./')
+os.chdir('/home/animeshkumar/workspace/adalab/workspace/DeepPostures/MSSE-2021/')
+
 from commons import cnn_bi_lstm_model, input_iterator
 
 # Setting random seeds

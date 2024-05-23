@@ -31,6 +31,7 @@ import gzip
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+os.chdir('/home/animeshkumar/workspace/adalab/workspace/DeepPostures/MSSE-2021/')
 
 def write_data_to_file(pre_process_data_output_dir, subject_id, start_date, values_being_written, CNN_WINDOW_SIZE, RESOLUTION):
     # File path

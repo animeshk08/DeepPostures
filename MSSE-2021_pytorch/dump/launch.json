@@ -1,0 +1,20 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Python Debugger: Current File with Arguments",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            // "args": ["--gt3x-dir", "./example" ,"--pre-processed-dir", "./preprocessed_data"]
+            // "args": ["--pre-processed-dir", "preprocessed_data"]
+            "args": ["--gt3x-dir", "/home/animeshkumar/workspace/adalab/workspace/DeepPostures/MSSE-2021_pytorch/example_subject/AG", "--activpal-dir", "/home/animeshkumar/workspace/adalab/workspace/DeepPostures/MSSE-2021_pytorch/example_subject/AP", "--pre-processed-dir", "preprocessed_new", "--activpal-label-map", "{\"0.0\": 0, \"1.0\": 1, \"2.0\": 1, \"2.1\": 1, \"3.1\": -1, \"3.2\": 0, \"4.0\": -1, \"5.0\": 0, \"0\": 0, \"1\": 1, \"2\": 1, \"4\": -1, \"5\": 0, \"-1.0\": -1, \"-1\": -1}", "--valid-days-file", "/home/animeshkumar/workspace/adalab/workspace/DeepPostures/MSSE-2021_pytorch/example_subject/P2_BL_valid_day.csv", "--sleep-logs-file", "/home/animeshkumar/workspace/adalab/workspace/DeepPostures/MSSE-2021_pytorch/example_subject/P2_BL_sleepLog.csv", "--non-wear-times-file", "/home/animeshkumar/workspace/adalab/workspace/DeepPostures/MSSE-2021_pytorch/example_subject/P2_BL_NonWear.csv", "--gzipped"]
+
+            }
+    ]
+}
